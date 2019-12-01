@@ -10,6 +10,7 @@ int main(){
     printf("\n\t%cHasta que n%cmero quieres saber los primos?",168,163);
     printf("\n\t--> ");
         scanf("%d",&n);
+    n=abs(n);
     c=Eratostenes(&n);
     printf("\n\tEstos son los primos hasta el %d",n);
     MostrarVector(c,n);
