@@ -6,7 +6,6 @@ void MostrarVector(int *, int);
 
 int main(){
     int *c,n;
-        c=(int*)malloc(sizeof(int));
     printf("\n\t%cHasta que n%cmero quieres saber los primos?",168,163);
     printf("\n\t--> ");
         scanf("%d",&n);
